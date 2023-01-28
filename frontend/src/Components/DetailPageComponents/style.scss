@@ -1,0 +1,45 @@
+.detailpage{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../../Assets/imgs/section_bg02.jpg);
+    .datailMain{
+        width: 70%;
+        height: 60vh;
+        border: 1px solid black ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+        gap: 30px;
+        text-align: center;
+        i{
+            color: goldenrod;
+            font-size: 40px;
+        }
+        h2{
+            color: wheat;
+            font-size: 35px;
+        }
+        p{
+            color: wheat;
+            width: 300px;
+        }
+        button{
+            width: 200px;
+            height: 40px;
+            border-radius: 30px;
+            border: none;
+            cursor: pointer;
+            font-size: 17px;
+            font-weight: 600;
+        }
+        button:hover{
+            background-color: goldenrod;
+            transition: .9;
+        }
+    }
+}

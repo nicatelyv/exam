@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.OurTeamMemberSection{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7f7f7;
+    .OurTeamMemberMain{
+        width: 60%;
+        min-height: 70vh;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        #OurMemP{
+            color: red;
+            font-size: 18px;
+        }
+        #OurMemH3{
+            font-size: 50px;
+            color: #092c3f;
+        }
+        .OurMemPerson{
+            width: auto;
+            min-height: 50vh;
+            margin-top: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            #OurPerson{
+                width: 32%;
+                min-height: 50vh;
+                display: flex;
+                flex-direction: column;
+                overflow: hidden;
+                gap: 15px;
+                img{
+                    width: auto;
+                    height: 430px;
+                    overflow: hidden;
+                }
+                img:hover{
+                    scale: 1.05;
+                    transition: 1s;
+                }
+                #PersonH4{
+                    color: #092c3f;
+                    font-size: 22px;
+                    margin-left: 15px;
+                }
+                #PersonP{
+                    color: red;
+                    margin-left: 15px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:1400px){
+    .OurTeamMemberSection{
+        margin-top: 150px;
+        width: 100%;
+        min-height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #f7f7f7;
+        .OurTeamMemberMain{
+            width: 600px;
+            min-height: 70vh;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            #OurMemP{
+                color: red;
+                font-size: 18px;
+            }
+            #OurMemH3{
+                font-size: 50px;
+                color: #092c3f;
+            }
+            .OurMemPerson{
+                width: auto;
+                min-height: 50vh;
+                margin-top: 30px;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+                gap: 20px;
+                #OurPerson{
+                    width: 70%;
+                    min-height: 50vh;
+                    display: flex;
+                    flex-direction: column;
+                    overflow: hidden;
+                    gap: 15px;
+                    img{
+                        width: auto;
+                        height: 430px;
+                        overflow: hidden;
+                    }
+                    img:hover{
+                        scale: 1.05;
+                        transition: 1s;
+                    }
+                    #PersonH4{
+                        color: #092c3f;
+                        font-size: 22px;
+                        margin-left: 15px;
+                    }
+                    #PersonP{
+                        color: red;
+                        margin-left: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:500px){
+    .OurTeamMemberSection{
+        margin-bottom: 100px;
+        margin-top: 150px;
+        width: 100%;
+        min-height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #f7f7f7;
+        .OurTeamMemberMain{
+            width: 600px;
+            min-height: 70vh;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            #OurMemP{
+                color: red;
+                font-size: 18px;
+            }
+            #OurMemH3{
+                font-size: 50px;
+                color: #092c3f;
+            }
+            .OurMemPerson{
+                width: auto;
+                min-height: 50vh;
+                margin-top: 30px;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+                gap: 20px;
+                #OurPerson{
+                    width: 250px;
+                    min-height: 40vh;
+                    display: flex;
+                    flex-direction: column;
+                    overflow: hidden;
+                    gap: 15px;
+                    img{
+                        width: auto;
+                        height: 30%;
+                        overflow: hidden;
+                    }
+                    img:hover{
+                        scale: 1.05;
+                        transition: 1s;
+                    }
+                    #PersonH4{
+                        color: #092c3f;
+                        font-size: 22px;
+                        margin-left: 15px;
+                    }
+                    #PersonP{
+                        color: red;
+                        margin-left: 15px;
+                    }
+                }
+            }
+        }
+    }
+}

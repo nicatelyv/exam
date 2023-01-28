@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.OurBestbackend{
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #f7f7f7;
+    .ourMain{
+        width: 70%;
+        min-height: 75vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        button{
+            width: 130px;
+            height: 35px;
+            border-radius: 30px;
+            border: none;
+            background-color: goldenrod;
+            cursor: pointer;
+        }
+        input{
+            width: 250px;
+            height: 35px;
+            border: 1px solid gray;
+            border-radius: 15px;
+            outline: none;
+            padding-left: 15px;
+            
+        }
+        #ourH3{
+            color: red;
+            font-size: 20px;
+        }
+        #ourH2{
+            font-size: 55px;
+        }
+        .ourCards{
+            width: auto;
+            min-height: 50vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 80px;
+           
+            .ourCard{
+                width: 350px;
+                min-height: 500px;
+                background-color: white;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                padding-left: 20px;
+                padding-right: 20px;
+                gap: 30px;
+                i{
+                    font-size: 50px;
+                    color: red;
+                }
+                #elementH2{
+                    font-weight: 900;
+                    font-size: 25px;
+                }
+                #elementP{
+                    color: gray;
+                    opacity: .8;
+                    font-size: 17px;
+                }
+                button{
+                    width: 100px;
+                    height: 30px;
+                    border-radius: 30px;
+                    border: none;
+                    background-color: goldenrod;
+                    cursor: pointer;
+                }
+                button:hover{
+                    background-color: gray;
+                    color: black;
+                    transition: 1;
+                }
+                #detailbtn{
+                    width: 100px;
+                    height: 30px;
+                    border-radius: 30px;
+                    border: none;
+                    background-color: blue;
+                    color: white;
+                    cursor: pointer;
+                }
+                #detailbtn:hover{
+                    background-color: gray;
+                    color: black;
+                    transition: 1;
+                }
+            }
+        }
+    }
+}

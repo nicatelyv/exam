@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.FeaturedCaseStudySec{
+    width: 100%;
+    min-height: 140vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .FeaturedCaseStudySecMain{
+        width: 60%;
+        min-height: 120vh;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        #featuredH3{
+            color: red;
+            font-size: 20px;
+            font-weight: 100;
+        }
+        #featuredH2{
+            font-size: 55px;
+            color: #092c3f;
+            font-weight: 900;
+        }
+        .FeaturedCards{
+            width: auto;
+            min-height: 100vh;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 25px;
+            position: relative;
+            &>div{
+                width: 550px;
+                min-height: auto;
+                overflow: hidden;
+                img{
+                    width: auto;
+                    height: 400px;
+                }
+                .cardDiv{
+                    margin-top: -60px;
+                    position: absolute;
+                    width: 450px;
+                    min-height: 120px;
+                    background-color: white;
+                    padding-left: 30px;
+                    padding-top: 20px;
+                    gap: 10px;
+                    display: flex;
+                    flex-direction: column;
+                    #cardDivP{
+                        color: red;
+                        font-weight: 100;
+                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                        font-size: 18px;
+                    }
+                    #cardDivH4{
+                        color: black;
+                        font-weight: 100;
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:630px){
+    .FeaturedCaseStudySec{
+        z-index: 3;
+        margin-top: 50px;
+        width: 100%;
+        min-height: 140vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .FeaturedCaseStudySecMain{
+            width: 90%;
+            min-height: 120vh;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            #featuredH3{
+                color: red;
+                font-size: 20px;
+                font-weight: 100;
+            }
+            #featuredH2{
+                font-size: 55px;
+                color: #092c3f;
+                font-weight: 900;
+            }
+            .FeaturedCards{
+                width: auto;
+                min-height: 100vh;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                gap: 25px;
+                position: relative;
+                &>div{
+                    width: 90%;
+                    min-height: auto;
+                    overflow: hidden;
+                    img{
+                        width: auto;
+                        height: 400px;
+                    }
+                    .cardDiv{
+                        margin-top: -60px;
+                        position: absolute;
+                        width: 100%;
+                        min-height: 120px;
+                        background-color: white;
+                        padding-left: 30px;
+                        padding-top: 20px;
+                        gap: 10px;
+                        display: flex;
+                        flex-direction: column;
+                        #cardDivP{
+                            width: 90%;
+                            color: red;
+                            font-weight: 100;
+                            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                            font-size: 18px;
+                        }
+                        #cardDivH4{
+                            width: 90%;
+                            color: black;
+                            font-weight: 100;
+                            font-size: 25px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
